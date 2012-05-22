@@ -1,13 +1,12 @@
 Django==1.4
 PIL==1.1.7
 South==0.7.4
+URLObject==2.0.1
 distribute==0.6.24
-django-pylibmc-sasl==0.2.4
+django-bootstrap-form==2.0.3
 djangorestframework==0.3.3
 gunicorn==0.14.2
 psycopg2==2.4.5
 pyOpenSSL==0.13
 sorl-thumbnail==11.12
-pylibmc==1.2.2
-python-cloudfiles==1.7.10
 wsgiref==0.1.2

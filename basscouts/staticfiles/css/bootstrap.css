@@ -132,12 +132,29 @@ textarea {
 }
 body {
   margin: 0;
-  padding-top: 60px;
+  padding-top: 160px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background-color: #e8e8e8;
+  background: #e8e8e8 url('../img/scouts-bg.jpg') no-repeat center 40px;
+}
+.span12.thumbnail {
+    padding: 15px;
+}
+.homerow .span8 {
+    margin-top: 10px !important;
+    width:580px !important;
+    padding: 15px;
+}
+.homemain {
+    background-color:#FFF;
+}
+.homeside {
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+    background: #FFF;
+    width: 290px !important;
 }
 a {
   color: #666;

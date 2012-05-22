@@ -22,66 +22,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basscouts/staticfiles/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="146" column="12" selection-start="2528" selection-end="2528" vertical-scroll-proportion="-17.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faq.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basscouts/templates/faq.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="45" selection-start="169" selection-end="188" vertical-scroll-proportion="-3.2608695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basscouts/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="14" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-21.52174">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cubs.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basscouts/templates/cubs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="1314" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basscouts/templates/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="14" selection-start="632" selection-end="632" vertical-scroll-proportion="-13.043478">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basscouts/staticfiles/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="9" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.55824685">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scouts/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="33" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#25#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basscouts/templates/news/article.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="25" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basscouts/templates/news/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="27" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
+            <state line="27" column="46" selection-start="1221" selection-end="1221" vertical-scroll-proportion="-17.608696">
               <folding />
             </state>
           </provider>
@@ -90,7 +52,25 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basscouts/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="10" selection-start="2738" selection-end="2738" vertical-scroll-proportion="-35.869564">
+            <state line="49" column="8" selection-start="2322" selection-end="2322" vertical-scroll-proportion="-31.956522">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basscouts/templates/news/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="47" selection-start="166" selection-end="206" vertical-scroll-proportion="-3.9130435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basscouts/templates/news/article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="14" selection-start="537" selection-end="537" vertical-scroll-proportion="0.28878823">
               <folding />
             </state>
           </provider>
@@ -99,7 +79,25 @@
       <file leaf-file-name="beavers.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basscouts/templates/beavers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="14" selection-start="662" selection-end="662" vertical-scroll-proportion="-9.782609">
+            <state line="5" column="45" selection-start="174" selection-end="193" vertical-scroll-proportion="-3.2608695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basscouts/templates/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="27" selection-start="199" selection-end="199" vertical-scroll-proportion="-3.9130435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cubs.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basscouts/templates/cubs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="45" selection-start="190" selection-end="190" vertical-scroll-proportion="-3.2608695">
               <folding />
             </state>
           </provider>
@@ -108,7 +106,7 @@
       <file leaf-file-name="scouts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basscouts/templates/scouts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+            <state line="5" column="45" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.2608695">
               <folding />
             </state>
           </provider>
@@ -127,22 +125,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/basscouts/models.py" />
         <option value="$PROJECT_DIR$/basscouts/scouts/views.py" />
-        <option value="$PROJECT_DIR$/basscouts/settings.py" />
-        <option value="$PROJECT_DIR$/basscouts/staticfiles/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/basscouts/templates/cubs.html" />
         <option value="$PROJECT_DIR$/scouts/views.py" />
         <option value="$PROJECT_DIR$/basscouts/urls.py" />
-        <option value="$PROJECT_DIR$/basscouts/templates/news/index.html" />
-        <option value="$PROJECT_DIR$/basscouts/templates/base.html" />
-        <option value="$PROJECT_DIR$/basscouts/templates/scouts.html" />
-        <option value="$PROJECT_DIR$/basscouts/templates/contact.html" />
-        <option value="$PROJECT_DIR$/basscouts/templates/beavers.html" />
-        <option value="$PROJECT_DIR$/basscouts/templates/faq.html" />
         <option value="$PROJECT_DIR$/scouts/admin.py" />
+        <option value="$PROJECT_DIR$/basscouts/settings.py" />
+        <option value="$PROJECT_DIR$/basscouts/templates/faq.html" />
+        <option value="$PROJECT_DIR$/basscouts/templates/beavers.html" />
+        <option value="$PROJECT_DIR$/basscouts/templates/contact.html" />
+        <option value="$PROJECT_DIR$/basscouts/templates/cubs.html" />
+        <option value="$PROJECT_DIR$/basscouts/templates/scouts.html" />
+        <option value="$PROJECT_DIR$/basscouts/staticfiles/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/basscouts/templates/index.html" />
+        <option value="$PROJECT_DIR$/basscouts/templates/base.html" />
+        <option value="$PROJECT_DIR$/basscouts/templates/news/index.html" />
+        <option value="$PROJECT_DIR$/basscouts/templates/news/article.html" />
       </list>
     </option>
   </component>
@@ -177,6 +175,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,7 +281,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="staticfiles" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,20 +306,6 @@
               <option name="myItemId" value="staticfiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -316,11 +314,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.templateLanguages.TemplateLanguageModulesConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -342,26 +341,11 @@
       <recent name="$PROJECT_DIR$/BasScouts" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.BasScouts">
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <module name="BasScouts" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+  <component name="RunManager" selected="Query Language Console.Default">
+    <configuration default="false" name="Default" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console" temporary="true">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -381,6 +365,27 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="BasScouts" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -408,6 +413,12 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="false" name="BasScouts" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -429,8 +440,9 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Django server.BasScouts" />
+      <item index="1" class="java.lang.String" itemvalue="Query Language Console.Default" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -469,7 +481,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26093918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17502668" sideWeight="0.9785638" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -540,11 +552,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basscouts/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="4" selection-start="4272" selection-end="4272" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basscouts/staticfiles/css/bootstrap-responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -560,76 +567,91 @@
         <state line="17" column="40" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basscouts/templates/faq.html">
+    <entry file="file://$PROJECT_DIR$/scouts/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="81" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" />
+        <state line="10" column="33" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scouts/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basscouts/templates/news/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="25" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basscouts/templates/news/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="27" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basscouts/templates/scouts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scouts/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#25#52#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.24">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basscouts/templates/cubs.html">
+    <entry file="file://$PROJECT_DIR$/basscouts/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1314" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basscouts/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="10" selection-start="2738" selection-end="2738" vertical-scroll-proportion="-35.869564">
+        <state line="123" column="56" selection-start="4068" selection-end="4068" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basscouts/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="14" selection-start="632" selection-end="632" vertical-scroll-proportion="-13.043478">
+        <state line="6" column="27" selection-start="199" selection-end="199" vertical-scroll-proportion="-3.9130435">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basscouts/templates/beavers.html">
+    <entry file="file://$PROJECT_DIR$/basscouts/templates/cubs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="662" selection-end="662" vertical-scroll-proportion="-9.782609">
+        <state line="5" column="45" selection-start="190" selection-end="190" vertical-scroll-proportion="-3.2608695">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basscouts/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/basscouts/templates/faq.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="14" selection-start="1489" selection-end="1489" vertical-scroll-proportion="-21.52174">
+        <state line="5" column="45" selection-start="169" selection-end="188" vertical-scroll-proportion="-3.2608695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basscouts/templates/scouts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.2608695">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basscouts/staticfiles/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="9" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.55824685">
+        <state line="146" column="12" selection-start="2528" selection-end="2528" vertical-scroll-proportion="-17.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basscouts/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="46" selection-start="1221" selection-end="1221" vertical-scroll-proportion="-17.608696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basscouts/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="8" selection-start="2322" selection-end="2322" vertical-scroll-proportion="-31.956522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basscouts/templates/beavers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="174" selection-end="193" vertical-scroll-proportion="-3.2608695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basscouts/templates/news/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="47" selection-start="166" selection-end="206" vertical-scroll-proportion="-3.9130435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basscouts/templates/news/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="14" selection-start="537" selection-end="537" vertical-scroll-proportion="0.28878823">
           <folding />
         </state>
       </provider>

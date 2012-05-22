@@ -2,6 +2,7 @@
 {% block title %}{{post.title}}{% endblock %}
 {% block content %}
 <div class="row">
+    <div class="span12 thumbnail homemain">
     <div class="span3">
         <div class="well sidebar-nav">
             <ul class="nav nav-list">
@@ -14,5 +15,6 @@
         </div>
         {{post.article_body|linebreaks}}
     </div>
+        </div>
 </div>
 {% endblock %}
