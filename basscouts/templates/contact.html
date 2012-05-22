@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load bootstrap %}
+{% block nav-contact %}active{% endblock %}
+{% block title %}Contact{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="span9">
+            Twitter etc
+        </div>
+        <div class="span3">
+            <h4>Email Us</h4>
+            <form action="/contact.html" method="post">
+                {% csrf_token %}
+                {{ form|bootstrap }}
+                <div class="form-actions">
+                    <input type="submit" value="Submit" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

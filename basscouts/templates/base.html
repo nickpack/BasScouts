@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Nick Pack">
+    <meta name="description"
+          content="{% block metadesc %}{% endblock %}">
+    <meta name="keywords"
+          content="">
+    <title>{% block title %}Home{% endblock %} - 8th Basildon Scout Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/css/bootstrap.css" rel="stylesheet">
+    <!--link href="/static/css/bootstrap-responsive.css" rel="stylesheet"-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons
+    <link rel="shortcut icon" href="/static/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/static/ico/apple-touch-icon-57-precomposed.png">-->
+</head>
+
+<body>
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand pull-left" href="/">8th Basildon Scouts</a>
+            <div class="nav-collapse pull-right">
+                <ul class="nav">
+                    <li class="{% block nav-home %}{% endblock %}"><a href="/" title="Home">Home</a></li>
+                    <li class="{% block nav-beavers %}{% endblock %}"><a href="/beavers.html" title="Beavers">Beavers</a></li>
+                    <li class="{% block nav-cubs %}{% endblock %}"><a href="/cubs.html" title="Cubs">Cubs</a></li>
+                    <li class="{% block nav-scouts %}{% endblock %}"><a href="/scouts.html" title="scouts">Scouts</a></li>
+                    <li class="{% block nav-news %}{% endblock %}"><a href="/news" title="News and Events">News/Events</a></li>
+                    <li class="{% block nav-faq %}{% endblock %}"><a href="/faq.html" title="FAQ">FAQ</a></li>
+                    <li class="{% block nav-contact %}{% endblock %}"><a href="/contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+<footer>
+    <div class="row">
+        <div class="span4 offset2"><p>&copy; 2012 8th Basildon Scout Group, All rights reserved</p></div>
+    </div>
+</footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</body>
+</html>
