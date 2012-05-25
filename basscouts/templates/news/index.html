@@ -6,34 +6,66 @@
     <div class="row">
         <div class="span12 thumbnail homemain">
             <div class="page-header">
-                <h1>News &amp; Events</h1>
+                <h1>News &amp; Events
+                {% if title %}
+                    <small>{{ title }}</small>
+                {% endif %}
+                </h1>
             </div>
-            {% if articles %}
-                {% for article in articles %}
-                    <div class="span3">
-                        <div class="page-header">
-                            <h4><a href="{{article.get_absolute_url}}">{{ article.title }}</a></h4>
-                            <h6>{{ article.posted_by.all.0.first_name }} {{ article.article_date }}</h6>
-                        </div>
-                        <p>{{ article.article_body|truncatechars:150 }}</p>
-
-                        <p><a class="btn btn-warning" href="{{article.get_absolute_url}}">Read More</a></p>
+                <div class="row">
+                    <div class="span9">
+                    {% if articles %}
+                        {% for article in articles %}
+                            <div class="span9">
+                                <div class="page-header">
+                                    <h2><a href="{{article.get_absolute_url}}">{{ article.title }}</a></h2>
+                                    <h3>{{ article.posted_by.all.0.first_name }} {{ article.article_date }}</h3>
+                                </div>
+                                <p>{{ article.article_body }}</p>
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                        <p>No articles are available.</p>
+                    {% endif %}
+                    {% if articles.number %}
+                    <ul class="pagination">
+                        {% if articles.has_previous %}
+                            <li><a href="?page={{ articles.previous_page_number }}">previous</a></li>
+                        {% endif %}
+                        <li class="active">
+                            <a href="#">Page {{ articles.number }} of {{ articles.paginator.num_pages }}</a>
+                        </li>
+                        {% if articles.has_next %}
+                            <li><a href="?page={{ articles.next_page_number }}">next</a></li>
+                        {% endif %}
+                    </ul>
+                    {% endif %}
                     </div>
-                {% endfor %}
-            {% else %}
-                <p>No articles are available.</p>
-            {% endif %}
-            <ul class="pagination">
-                {% if articles.has_previous %}
-                    <li><a href="?page={{ articles.previous_page_number }}">previous</a></li>
-                {% endif %}
-                <li class="active">
-                    <a href="#">Page {{ articles.number }} of {{ articles.paginator.num_pages }}</a>
-                </li>
-                {% if articles.has_next %}
-                    <li><a href="?page={{ photos.next_page_number }}">next</a></li>
-                {% endif %}
-            </ul>
+                    <div class="span3">
+                        <div class="well sidebar-nav">
+                            <h3>Filter Articles</h3>
+                            <ul class="nav nav-list">
+                                <li class="nav-header">Categories</li>
+                                {% if categories %}
+                                    {% for category in categories %}
+                                        <li{% if title == category.title %} class="active"{% endif %}><a href="{{category.get_absolute_url}}">{{ category.title }}</a></li>
+                                    {% endfor %}
+                                {% else %}
+                                    <li>No categories found.</li>
+                                {% endif %}
+                                <li class="nav-header">Groups</li>
+                                {% if groups %}
+                                    {% for group in groups %}
+                                        <li{% if title == group.title %} class="active"{% endif %}><a href="{{group.get_news_url}}">{{ group.title }}</a></li>
+                                    {% endfor %}
+                                {% else %}
+                                    <li>No groups found.</li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                        <!--/.well -->
+                    </div>
+                </div>
         </div>
     </div>
 {% endblock %}

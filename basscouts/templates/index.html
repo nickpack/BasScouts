@@ -36,7 +36,7 @@
     <div class="row homerow">
         <div class="span8 thumbnail homemain">
             <div class="page-header">
-                <h1>Welcome to the 8th Basildon Scout Group.</h1>
+                <h1>8th Basildon Scout Group</h1>
             </div>
             <p>The 8th Basildon Scout group has been going for many years and is currently one of the larger groups in
             Basildon offering children the chance to progress through Cubs to Scouts.</p>
@@ -59,9 +59,13 @@
             <div class="sidebar-nav">
                 <ul class="nav nav-list">
                     <li class="nav-header">News &amp; Events</li>
-                    <li><a href="/blah"><i class="icon-headphones"></i> Blah</a></li>
-                    <li><a href="/foo"><i class="icon-picture"></i> Foo</a></li>
-                    <li><a href="/meh"><i class="icon-facetime-video"></i> Meh</a></li>
+                    <li class="divider"></li>
+                    {% if articles %}
+                        {% for article in articles %}
+                            <li><a href="{{article.get_absolute_url}}"><i class="icon-calendar"></i>{{ article.title }} <span class="label label-success pull-right">{{ article.article_date }}</span></a></li>
+                            <li class="divider"></li>
+                        {% endfor %}
+                    {% endif %}
                 </ul>
             </div>
         </div>

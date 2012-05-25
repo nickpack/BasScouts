@@ -5,14 +5,14 @@
     <div class="row">
         <div class="span12 thumbnail homemain">
             <div class="page-header">
-                <h1>8th Basildon Scout Group FAQ.</h1>
+                <h1>8th Basildon Scout Group FAQ</h1>
             </div>
             <div class="accordion" id="accordion1">
             {% if faqs  %}
                 {% for entry in faqs %}
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapse{{ forloop.counter }}">
+                            <a class="accordion-toggle btn-success" data-toggle="collapse" data-parent="#accordion1" href="#collapse{{ forloop.counter }}">
                                 {{ entry.question }}
                             </a>
                         </div>

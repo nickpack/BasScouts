@@ -8,15 +8,16 @@ from django.http import HttpResponse, HttpResponseRedirect , Http404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 def view_article(request, slug):
-    return render_to_response( 'news/article.html' , {
-        'post': get_object_or_404(NewsArticle, slug=slug)
-    })
+    post = get_object_or_404(NewsArticle, slug=slug)
+    groups = ScoutPack.objects.all()
+    categories = NewsCategory.objects.all()
+    return render_to_response( 'news/article.html' , {'post': post, 'groups': groups, 'categories': categories} )
 
 def news_index(request):
     news_articles = NewsArticle.objects.all().order_by('-article_date')
     groups = ScoutPack.objects.all()
     categories = NewsCategory.objects.all()
-    paginator = Paginator(news_articles, 5)
+    paginator = Paginator(news_articles, 2)
 
     page = request.GET.get('page')
     try:
@@ -33,14 +34,16 @@ def news_category_index(request, slug):
     articles = NewsArticle.objects.filter(category=category)
     groups = ScoutPack.objects.all()
     categories = NewsCategory.objects.all()
-    return render_to_response( 'news/index.html' , {'articles': articles, 'groups': groups, 'categories': categories})
+    title = category.title
+    return render_to_response( 'news/index.html' , {'articles': articles, 'groups': groups, 'categories': categories, 'title': title })
 
 def news_group_index(request, slug):
     group = get_object_or_404(ScoutPack, slug=slug)
     articles = NewsArticle.objects.filter(group=group)
     groups = ScoutPack.objects.all()
     categories = NewsCategory.objects.all()
-    return render_to_response( 'news/index.html' , {'articles': articles, 'groups': groups, 'categories': categories})
+    title = group.title
+    return render_to_response( 'news/index.html' , {'articles': articles, 'groups': groups, 'categories': categories, 'title': title })
 
 def main_index(request):
     news_articles = NewsArticle.objects.all().order_by('-article_date')

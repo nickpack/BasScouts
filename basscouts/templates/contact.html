@@ -5,14 +5,25 @@
 {% block content %}
     <div class="row">
         <div class="span12 thumbnail homemain">
-            <h4>Email Us</h4>
-            <form action="/contact.html" method="post">
-                {% csrf_token %}
-                {{ form|bootstrap }}
-                <div class="form-actions">
-                    <input type="submit" value="Submit" class="btn btn-primary" />
+            <div class="page-header">
+                <h1>Contact 8th Basildon Scout Group</h1>
+            </div>
+            <div class="row">
+                <div class="span8">
+                    <h2>Telephone</h2>
+                    <p>For any enquiries please contact Mary on 01268 XXXXXX.</p>
                 </div>
-            </form>
+                <div class="span4">
+                    <h2>Email Us</h2>
+                    <form action="/contact.html" method="post">
+                        {% csrf_token %}
+                        {{ form|bootstrap }}
+                        <div class="form-actions">
+                            <input type="submit" value="Submit" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 {% endblock %}
